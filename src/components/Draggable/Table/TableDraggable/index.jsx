@@ -33,7 +33,6 @@ const TableDraggable = ({ data, columns, onDragEnd, editable, onChange }) => {
   }
 
   const dataList = key => items.map((item, i) => <tr className='table-row' key={i}><td className='table-data'>{item[key]}</td></tr>)
-
   const list = columns.map((column, i) => <SortableListItem
     key={i}
     onSortItems={onSortItems}
@@ -49,6 +48,7 @@ const TableDraggable = ({ data, columns, onDragEnd, editable, onChange }) => {
               type={'text'}
               name={column.field}
               value={labels[column.field]}
+              // size={labels[column.field].length}
               onChange={e => handleChange(e)}
             /> : column.label
           }

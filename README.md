@@ -1,6 +1,12 @@
-# reactjs-table-draggable
+# REactjs Draggable Table Columns
 
 `reactjs-table-draggable` is a reactjs library for dealing with table columns for sorting them.
+
+Check out the **[`source`](https://github.com/logiceverest/reactjs-table-sortable)**.
+
+Check out the **[`reactjs-table-sortable`](https://www.npmjs.com/package/reactjs-table-draggable)**.
+
+Inspired by [`react-sortable`](https://www.npmjs.com/package/react-sortable).
 
 ## Installation
 
